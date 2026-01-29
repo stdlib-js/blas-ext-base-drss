@@ -63,7 +63,7 @@ The [residual sum of squares][wikipedia-residual-sum-of-squares] (also referred 
 ## Usage
 
 ```javascript
-import drss from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drss@esm/index.mjs';
+import drss from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drss@v0.1.0-esm/index.mjs';
 ```
 
 #### drss( N, x, strideX, y, strideY )
@@ -175,7 +175,7 @@ var z = drss.ndarray( 4, x, 2, 1, y, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import drss from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drss@esm/index.mjs';
+import drss from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drss@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
